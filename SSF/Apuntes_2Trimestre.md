@@ -350,19 +350,21 @@ Ver contenido: `rar -l archivo.rar`
 - En los scripts de batch de Windows, el comando `@echo off `se utiliza para desactivar la visualización de los comandos del script en la consola mientras se están ejecutando.
 
 - En bash se accede a los argumentos:
-  - $1 se refiere al primer argumento.
-  - $2 se refiere al segundo argumento.
-  - $@ se refiere a todos los argumentos pasados.
-  - $0 hace referencia al nombre del script en sí mismo
-  - $# te dará el número total de argumentos pasados al script.
-  - $? para determinar si la ejecución fue exitosa o si hubo algún error.
+  - `$1` se refiere al primer argumento.
+  - `$2` se refiere al segundo argumento.
+  - `$@` se refiere a todos los argumentos pasados.
+  - `$0` hace referencia al nombre del script en sí mismo
+  - `$#` te dará el número total de argumentos pasados al script.
+  - `$?` para determinar si la ejecución fue exitosa o si hubo algún error.
 - En batch:
 
-  - %0 es el nombre del script.
-  - %1, %2, %3, etc., son los argumentos pasados al script.
+  - `%0` es el nombre del script.
+  - `%1`, `%2`, `%3`, etc., son los argumentos pasados al script.
 
 - En bash, rango de 1 hasta N:
-  - for i in range {1..N}
+```bash
+  for i in range {1..N}
+```
 - Escribiendo `local` al escribir una bariable hace que sea de rango local y no global
 
 - En bash se delimitan con {} llaves los bloques de condicionales o bucles
@@ -371,7 +373,9 @@ Ver contenido: `rar -l archivo.rar`
   - `if [ "$numero1" -lt "$numero2" ]; then`
 - `#!/bin/bash ` hace que linux sepa que ha de ejecutar el script en bash.
 - Puedo comprobar que el contenido de una variable no esté vacío con:
-  - `if [ -n "$var" ]; then`
+  ```bash
+    if [ -n "$var" ]; then
+  ```
 - Un script de shell es un fichero de texto con comandos de consola que es interpretado
 - Una de las mayores ventajas de los script es poder automatizar la administración del propio sistema operativo.
 - Para los scripts de batch en Windows, la extensión .bat o .cmd es crucial.
