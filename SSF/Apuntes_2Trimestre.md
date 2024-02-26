@@ -52,14 +52,14 @@
 ## Tabla de Permisos en Octal
 
 ```plaintext
-| rwx |  7  | Lectura, escritura y ejecución    |
-| rw- |  6  | Lectura, escritura        |
-| r-x |  5  | Lectura y ejecución       |
-| r-- |  4  | Lectura               |
-| -wx |  3  | Escritura y ejecución             |
-| -w- |  2  | Escritura                         |
-| --x |  1  | Ejecución             |
-| --- |  0  | Sin permisos          |
+| rwx |  7  | Lectura, escritura y ejecución   |
+| rw- |  6  | Lectura, escritura               |
+| r-x |  5  | Lectura y ejecución              |
+| r-- |  4  | Lectura                          |
+| -wx |  3  | Escritura y ejecución            |
+| -w- |  2  | Escritura                        |
+| --x |  1  | Ejecución                        |
+| --- |  0  | Sin permisos                     |
 
 ```
 
