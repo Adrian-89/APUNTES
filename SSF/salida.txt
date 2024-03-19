@@ -1,0 +1,5 @@
+Hola
+vie 01 mar 2024 15:12:00 WET
+Adios
+
+ at now + 1 minute -f hola.sh
